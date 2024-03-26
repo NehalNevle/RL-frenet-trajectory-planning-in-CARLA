@@ -8,7 +8,7 @@ import time
 import itertools
 from tools.modules import *
 from config import cfg
-from agents.local_planner.frenet_optimal_trajectory import FrenetPlanner as MotionPlanner
+from agents.local_planner.frenet_optimal_trajectory import FrenetPlanner as MotionPlanner  
 from agents.low_level_controller.controller import VehiclePIDController
 from agents.tools.misc import get_speed
 from agents.low_level_controller.controller import IntelligentDriverModel
